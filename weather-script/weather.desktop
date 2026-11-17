@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=~/random-bash-scripts/weather-script/weather.sh
+Type=Application
+Name=Weather
+Icon=/usr/share/icons/kuromi-icons/App Icons/3.png
+Terminal=true
+
