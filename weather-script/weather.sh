@@ -10,6 +10,7 @@ CTRL+C to exit"
 
 read -r location #sets the location variable
 
+clear
 echo "Ansiweather $location - Today and Five Day Forecast
 
 
@@ -30,6 +31,6 @@ echo "
 
 "
 
-read -n 1 -s -p "Press any key to reset..."
+read -n 1 -s -p "Press any key to reset (CTRL+C to exit)..."
 clear;
 done #required for while statement
