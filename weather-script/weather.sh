@@ -4,9 +4,11 @@
 #today's forcast. Second example is a 5 day forcast. See <man ansiweather>
 #for more usages.
 
-echo "Enter location (ex. Portland, ME)..."
+while true; do #sets infinite loop. CTRL+C will end script.
+echo "Enter location (ex. Biddeford, ME)...
+CTRL+C to exit"
 
-read -r location
+read -r location #sets the location variable
 
 echo "Ansiweather $location - Today and Five Day Forecast
 
@@ -28,4 +30,6 @@ echo "
 
 "
 
-read -n 1 -s -p "Press any key to exit..."
+read -n 1 -s -p "Press any key to reset..."
+clear;
+done #required for while statement
